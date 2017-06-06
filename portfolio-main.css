@@ -1,0 +1,75 @@
+*{
+	font-family: 'Roboto Mono', monospace;
+}
+.main{
+	text-align:center;
+	z-index:1;
+}
+#menubar{
+	color:black;
+	margin:15px;
+	font-size:17px;
+	word-spacing:10px;
+	letter-spacing:2px;
+	display:inline-block;
+}
+.name{
+	font-size:40px;
+}
+.and{
+	font-size:50px;
+	margin:200px;
+}
+.Icreate{
+	font-size:40px;
+	margin-left:135px;
+}
+.intro{
+	text-align:center;
+	margin:auto;
+}
+#grid {
+  display: grid;
+  height: 300px;
+	margin-left:-10px;
+	margin-right:-10px;
+  grid-template-rows: 1fr 1fr;
+}
+#one{
+	background-color:#EFEFEF;
+	margin-right:-10px;
+	padding-top:65px;
+}
+#areaA {
+  background-color: whitesmoke;
+padding-top:50px;
+}
+#areaB {
+  background-color: lightgray;
+	padding-top:50px;
+}
+#three{
+	background-color:#C1C1C1;
+	margin-left:-6px;
+	padding-top:50px;
+}
+#one:hover, #areaA:hover, #areaB:hover, #three:hover{
+	opacity:0.5;
+}
+ul{
+	list-style:none;
+}
+.project1{
+	width:100%;
+}
+#process{
+	font-size:150px;
+}
+#processh{
+	font-size:60px;
+}
+.fa-cog, .fa-code{
+	position:relative;
+	top:30%;
+	left:30%;
+}
