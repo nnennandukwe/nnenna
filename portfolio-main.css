@@ -29,11 +29,11 @@
 	margin:auto;
 }
 #grid {
-  display: grid;
-  height: 300px;
+  	display: grid;
+  	height: 300px;
 	margin-left:-10px;
 	margin-right:-10px;
-  grid-template-rows: 1fr 1fr;
+  	grid-template-rows: 1fr 1fr;
 }
 #one{
 	background-color:#EFEFEF;
@@ -41,11 +41,11 @@
 	padding-top:65px;
 }
 #areaA {
-  background-color: whitesmoke;
-padding-top:50px;
+  	background-color: whitesmoke;
+	padding-top:50px;
 }
 #areaB {
-  background-color: lightgray;
+  	background-color: lightgray;
 	padding-top:50px;
 }
 #three{
